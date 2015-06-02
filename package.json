@@ -1,0 +1,15 @@
+{
+  "name": "JustMeme",
+  "main": "app/src/app.js",
+  "author": "Telerik <support@telerik.com>",
+  "description": "JustMeme is the best Meme generator on the interwebs!",
+  "license": "BSD",
+  "keywords": [
+    "telerik",
+    "nativescript",
+    "mobile"
+  ],
+  "repository": {
+    "url": "https://github.com/NativeScript/JustMeme"
+  }
+}
