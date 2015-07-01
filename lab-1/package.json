@@ -1,15 +1,12 @@
 {
-  "name": "JustMeme",
-  "main": "app/src/app.js",
-  "author": "Telerik <support@telerik.com>",
-  "description": "JustMeme is the best Meme generator on the interwebs!",
-  "license": "BSD",
-  "keywords": [
-    "telerik",
-    "nativescript",
-    "mobile"
-  ],
-  "repository": {
-    "url": "https://github.com/NativeScript/JustMeme"
-  }
+	"nativescript": {
+		"id": "org.nativescript.lab1",
+		"tns-ios": {
+			"version": "1.1.0"
+		},
+		"node-modules-cache-path": "/Users/tj/Dev/nativescript/summer-of-nativescript-lab/lab-1/tmp/funnel-output_path-3Zgv5ni2.tmp",
+		"tns-android": {
+			"version": "1.1.0"
+		}
+	}
 }

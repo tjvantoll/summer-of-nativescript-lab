@@ -1,0 +1,5 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd"
+			cssClass="splashPage">
+
+	<Image src="~/images/splashScreenBackground.png" stretch="aspectFill" />
+</Page>

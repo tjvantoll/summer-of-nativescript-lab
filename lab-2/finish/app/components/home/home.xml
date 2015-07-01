@@ -1,0 +1,31 @@
+<Page
+	xmlns="http://www.nativescript.org/tns.xsd"
+	cssClass="page"
+	loaded="load"
+	navigatedTo="navigatedTo">
+
+	<TabView>
+		<TabView.items>
+
+			<TabViewItem title="Templates">
+				<TabViewItem.view>
+					<ScrollView>
+						<WrapLayout id="templateContainer" itemHeight="100" horizontalAlignment="center">
+						</WrapLayout>
+					</ScrollView>
+				</TabViewItem.view>
+			</TabViewItem>
+
+			<TabViewItem title="My Memes">
+				<TabViewItem.view>
+					<ScrollView>
+						<WrapLayout id="myMemeContainer" itemHeight="100" horizontalAlignment="center">
+						</WrapLayout>
+					</ScrollView>
+				</TabViewItem.view>
+			</TabViewItem>
+
+		</TabView.items>
+	</TabView>
+
+</Page>
