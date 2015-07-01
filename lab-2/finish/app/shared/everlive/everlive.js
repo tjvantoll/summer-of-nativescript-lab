@@ -16,7 +16,7 @@ module.exports = {
 }
 
 function _getTemplatesIndex() {
-	var getUrl = global.everliveFunctionBaseAddress + "/GetTemplates";
+	var getUrl = global.everliveFunctionBaseAddress + "/DevGetTemplates";
 	return _getFromEverlive(getUrl);
 }
 
