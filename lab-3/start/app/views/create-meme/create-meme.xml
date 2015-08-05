@@ -1,0 +1,16 @@
+<Page 
+	xmlns="http://www.nativescript.org/tns.xsd"
+	loaded="loaded"
+	unloaded="unloaded"
+	navigatedTo="navigatedTo">
+
+	<Page.actionBar>
+		<ActionBar title="Create New"></ActionBar>
+	</Page.actionBar>
+
+	<ScrollView>
+		<StackLayout>
+			<!-- code goes here -->
+		</StackLayout>
+	</ScrollView>
+</Page>
