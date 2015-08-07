@@ -30,7 +30,7 @@ var generateImage = _.debounce(function() {
 		isBlackText: viewModel.get("isBlackText")
 	});
 	viewModel.set("memeImage", image);
-}, 1000, { leading: true });
+}, 10, { leading: true });
 
 exports.share = function() {
 	socialShare.shareImage(viewModel.get("memeImage"));
