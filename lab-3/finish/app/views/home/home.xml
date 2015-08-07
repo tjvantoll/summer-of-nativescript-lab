@@ -1,0 +1,39 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd"
+	cssClass="page"
+	loaded="load"
+	unloaded="unloaded"
+	navigatedTo="navigatedTo">
+
+	<Page.actionBar>
+		<ActionBar title="JustMeme">
+			<ActionBar.actionItems>
+				<ActionItem text="New Template" tap="createNewTemplate" ios.position="right"/>
+			</ActionBar.actionItems>
+		</ActionBar>
+	</Page.actionBar>
+
+	<TabView>
+		<TabView.items>
+
+			<TabViewItem title="Templates">
+				<TabViewItem.view>
+					<ScrollView>
+						<WrapLayout id="templateContainer" itemHeight="100" horizontalAlignment="center">
+						</WrapLayout>
+					</ScrollView>
+				</TabViewItem.view>
+			</TabViewItem>
+
+			<TabViewItem title="My Memes">
+				<TabViewItem.view>
+					<ScrollView>
+						<WrapLayout id="myMemeContainer" itemHeight="100" horizontalAlignment="center">
+						</WrapLayout>
+					</ScrollView>
+				</TabViewItem.view>
+			</TabViewItem>
+
+		</TabView.items>
+	</TabView>
+	
+</Page>

@@ -1,0 +1,22 @@
+<Page
+	xmlns="http://www.nativescript.org/tns.xsd"
+	navigatedTo="navigatedTo"
+	loaded="loaded">
+
+	<Page.actionBar>
+		<ActionBar title="New Template">
+			<ActionBar.actionItems>
+				<ActionItem text="New" tap="newTemplate" ios.position="right"/>
+			</ActionBar.actionItems>
+		</ActionBar>
+	</Page.actionBar>
+
+	<StackLayout>
+		<Image imageSource="{{ imageSource }}" />
+
+		<ActivityIndicator busy="{{ isBusy }}" width="50" height="50"/>
+
+		<Button text="Import Picture" tap="saveLocally" />
+		<Button text="Submit For Approval" tap="submitToEverlive" />
+	</StackLayout>
+</Page>

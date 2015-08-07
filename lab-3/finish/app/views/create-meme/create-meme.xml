@@ -1,0 +1,30 @@
+<Page 
+	xmlns="http://www.nativescript.org/tns.xsd"
+	loaded="loaded"
+	unloaded="unloaded"
+	navigatedTo="navigatedTo">
+
+	<Page.actionBar>
+		<ActionBar title="Create New">
+			<ActionBar.actionItems>
+				<ActionItem text="Share" tap="share" ios.position="right" />
+			</ActionBar.actionItems>
+		</ActionBar>
+	</Page.actionBar>
+
+	<ScrollView>
+		<StackLayout>
+			<Image imageSource="{{ memeImage }}" />
+			<TextField hint="Top text" text="{{ topText }}" />
+			<TextField hint="Bottom text" text="{{ bottomText }}" />
+
+			<GridLayout rows="auto, auto" columns="auto, *">
+				<Label row="0" col="0" cssClass="settingsLeft" text="Text Size" />
+				<Slider row="0" col="1" cssClass="settingRight" value="{{ fontSize }}" minValue="10" maxValue="100" />
+			
+				<Label row="1" col="0" cssClass="settingsLeft" text="Black Text" />
+				<Switch row="1" col="1" cssClass="settingsRight" checked="{{ isBlackText }}" />
+			</GridLayout>
+		</StackLayout>
+	</ScrollView>
+</Page>
