@@ -1,16 +1,16 @@
 {
-  "nativescript": {
-    "id": "org.nativescript.lab3finish",
-    "tns-ios": {
-      "version": "1.5.2"
-    },
-    "tns-android": {
-      "version": "1.5.1"
-    }
-  },
-  "dependencies": {
-    "lodash": "^3.10.1",
-    "nativescript-social-share": "^1.1.0",
-    "tns-core-modules": "^1.5.1"
-  }
+	"nativescript": {
+		"id": "org.nativescript.lab3finish",
+		"tns-ios": {
+			"version": "1.5.2"
+		},
+		"tns-android": {
+			"version": "1.5.1"
+		}
+	},
+	"dependencies": {
+		"lodash": "^3.10.1",
+		"nativescript-social-share": "^1.1.0",
+		"tns-core-modules": "^1.5.1"
+	}
 }
