@@ -8,3 +8,8 @@ lab-3/start/platforms/
 lab-3/start/lib/
 lab-3/finish/platforms/
 lab-3/finish/lib/
+lab-1/node_modules
+lab-2/start/node_modules
+lab-2/finish/node_modules
+lab-3/start/node_modules
+lab-3/finish/node_modules
